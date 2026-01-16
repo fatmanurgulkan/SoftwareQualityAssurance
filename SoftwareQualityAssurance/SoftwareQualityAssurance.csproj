@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="SoftwareQualityAssurance.UnitTests\**" />
+    <Compile Remove="SoftwareQualityAssurance.IntegrationTests\**" />
+    <Compile Remove="SoftwareQualityAssurance.E2ETests\**" />
+    <Content Remove="SoftwareQualityAssurance.UnitTests\**" />
+    <Content Remove="SoftwareQualityAssurance.IntegrationTests\**" />
+    <Content Remove="SoftwareQualityAssurance.E2ETests\**" />
+    <EmbeddedResource Remove="SoftwareQualityAssurance.UnitTests\**" />
+    <EmbeddedResource Remove="SoftwareQualityAssurance.IntegrationTests\**" />
+    <EmbeddedResource Remove="SoftwareQualityAssurance.E2ETests\**" />
+    <None Remove="SoftwareQualityAssurance.UnitTests\**" />
+    <None Remove="SoftwareQualityAssurance.IntegrationTests\**" />
+    <None Remove="SoftwareQualityAssurance.E2ETests\**" />
+  </ItemGroup>
+
+</Project>
