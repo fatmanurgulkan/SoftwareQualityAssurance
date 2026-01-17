@@ -629,8 +629,8 @@ SoftwareQualityAssurance/
 
 ## 👤 Yazar
 
-- **Ad Soyad**: [İsminizi buraya ekleyin]
-- **Öğrenci Numarası**: [Öğrenci numaranızı buraya ekleyin]
+- **Ad Soyad**: [FATMA NUR GÜLKAN]
+- **Öğrenci Numarası**: [4010930216]
 
 ## 📄 Lisans
 
